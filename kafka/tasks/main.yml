@@ -1,0 +1,5 @@
+- name: Check kafka folder
+  command: ls -lh /root/software
+- include: kafka-1.yml
+- include: kafka-2.yml
+- include: kafka-3.yml
